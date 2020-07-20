@@ -51,7 +51,9 @@ pacman -S ibus                  # for typing in Chinese and Japanese
 pacman -S ibus-rime             # Rime - an open source typing tool
 pacman -S dunst                 # for notify-send
 pacman -S pandoc                # great book format converter
-pacman -S textlive-most         # every writer needs this
+pacman -S texlive-most          # every writer needs this
+pacman -S texlive-lang          # extra package for some languages like Chinese, Japanese, Greek, etc.
+pacman -S biber                 # utility used to handle biblatex
 
 pacman -S networkmanager        # for managing network
 
@@ -67,3 +69,7 @@ pip3 install ueberzug
 
 # manual install
 # lazygit from AUR
+
+
+# Remindings:
+# Some of the packages installed above require dependencies like programming languages (go, perl, etc.) and pacman automatically installed them. You might need to install the dependencies yourself if you want those and didn't install all the above tools
