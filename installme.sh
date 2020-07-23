@@ -21,7 +21,7 @@ pacman -S python-pip            # for python pip
 
 # languages
 pacman -S go                    # golang
-
+pacman -S ruby                  # ruby
 
 # tools
 pacman -S vim                   # an awesome command line text editor
@@ -54,6 +54,11 @@ pacman -S pandoc                # great book format converter
 pacman -S texlive-most          # every writer needs this
 pacman -S texlive-lang          # extra package for some languages like Chinese, Japanese, Greek, etc.
 pacman -S biber                 # utility used to handle biblatex
+pacman -S pdftk                 # for manipulating pdf
+pacman -S cronie                # schedule your works, you can choose other cron programs
+pacman -S inkscape              # schedule your works, you can choose other cron programs
+pacman -S gimp                  # linux substitution for PS
+pacman -S gparted               # graphical disk partition tool
 
 pacman -S networkmanager        # for managing network
 
@@ -64,11 +69,21 @@ pacman -S noto-fonts
 pacman -S noto-fonts-emoji
 pacman -S ttf-font-awesome
 
+
+# Just for fun
+pacman -S cowsay                # cow will say something impressive!
+
+
 # pip
 pip3 install ueberzug
 
-# manual install
-# lazygit from AUR
+
+
+
+
+# AUR
+# lazygit
+# 
 
 
 # Remindings:
