@@ -59,7 +59,7 @@ pacman -S cronie                # schedule your works, you can choose other cron
 pacman -S inkscape              # schedule your works, you can choose other cron programs
 pacman -S gimp                  # linux substitution for PS
 pacman -S gparted               # graphical disk partition tool
-
+pacman -S chromium              # a great browser 
 pacman -S networkmanager        # for managing network
 
 # fonts
