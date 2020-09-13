@@ -26,3 +26,17 @@
 - wekan:     kanban
 - talk:      quick network videos
 - draw.io:   awesome online drawing
+
+
+
+### [others](others)
+
+- Nzh: transform number into Chinese characters
+ 
+ 
+-------
+
+## The flow:
+
+wekan wiki github(gitea)
+rocket-chat nextcloud
