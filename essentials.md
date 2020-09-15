@@ -14,6 +14,8 @@
 - inkscape:  vector graph editor
 - gimp:      graph editor, substitution for photoshop
 - audacity:  audio editor
+- latex:     awesome writing tool
+- JabRef:    manage bibtex references
 
 ### Arch specific
 
@@ -38,5 +40,6 @@
 
 ## The flow:
 
-wekan wiki github(gitea)
+wekan    wiki      github(gitea)
 rocket-chat nextcloud
+discourse
