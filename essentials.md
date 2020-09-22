@@ -1,4 +1,3 @@
-
 ## Essentials programs
 
 - st:        simple *awesome* terminal
@@ -11,6 +10,7 @@
 - khal:      c(k)alendar
 - musicbox:  listen to netease music
 - ibus-rime: CJK typing
+- delta:     great code comparison
 - inkscape:  vector graph editor
 - gimp:      graph editor, substitution for photoshop
 - audacity:  audio editor
@@ -41,5 +41,6 @@
 ## The flow:
 
 wekan    wiki      github(gitea)
-rocket-chat nextcloud
+rocket-chat     nextcloud
 discourse
+draw.io
