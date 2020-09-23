@@ -16,6 +16,10 @@
 - audacity:  audio editor
 - latex:     awesome writing tool
 - JabRef:    manage bibtex references
+ 
+## For fun
+
+- cmatrix: you enjoy the *matrix* movie, this is the choice
 
 ### Arch specific
 
