@@ -61,7 +61,7 @@ pacman -S gimp                  # linux substitution for PS
 pacman -S gparted               # graphical disk partition tool
 pacman -S chromium              # a great browser 
 pacman -S networkmanager        # for managing network
-pacman -S translate-shell       # awesome terminal based translator and dictionary, built with awk
+pacman -S z       # awesome terminal based translator and dictionary, built with awk
 
 # fonts
 pacman -S adobe-source-code-pro-fonts 

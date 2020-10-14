@@ -27,3 +27,12 @@
 | chromium          | a good browser                                                  |
 | networkmanager    | manage network easily                                           |
 | translate-shell   | awesome terminal baesd translator and dictionary built with awk |
+| z                 | z jump around                                                   |
+| powerlevel10k     | a powerful zsh theme                                            |
+| fd                | modern find                                                     |
+| ripgrep           | modern grep                                                     |
+| asciinema         | awesome commandline recording tool                              |
+| bat               | modern cat                                                      |
+| tldr              | example-based man                                               |
+| httpie            | modern culr                                                     |
+
