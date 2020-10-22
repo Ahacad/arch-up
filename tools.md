@@ -36,5 +36,8 @@
 | tldr                | example-based man                                                 |                 |
 | httpie              | modern culr                                                       |                 |
 | pgcli               | awesome cli in substitution for pgcl                              | pip             |
+| newsboat            | commandline rss                                                   | pacman          |
+| shellcheck          | awesome shell styling program written in haskell                  | pacman          |
+
 
 
