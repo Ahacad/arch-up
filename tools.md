@@ -38,6 +38,20 @@
 | pgcli               | awesome cli in substitution for pgcl                              | pip             |
 | newsboat            | commandline rss                                                   | pacman          |
 | shellcheck          | awesome shell styling program written in haskell                  | pacman          |
-
-
-
+| delta               | great diff tool written in rust                                   | pacman          |
+| yay                 | pacman + AUR                                                      |                 |
+| wireshark           | see what's exactly inside http packages                           | pacman          |
+| sherlock            | look up one's info on the Internet                                | git             |
+| proxychains         | proxy tool                                                        |                 |
+| speedtest           | test speed                                                        | pacman          |
+| betterlockscreen    | screen locker                                                     | yay             |
+| pigz                | parelleled compress                                               | pacman          |
+| zstd                | even better compress                                              | pacman          |
+| entr                | watch files and automatically execute scripts                     | pacman          |
+| neomutt             | mutt reborn                                                       | pacman          |
+| alsamixea           | sound configurations                                              | pacman          |
+| rofi                | nice application launcher                                         | pacman          |
+| gping               | ping with graph                                                   | cargo           |
+|                     |                                                                   |                 |
+| cmake               | package builder                                                   | pacman          |
+| doxygen             | generate docs to html                                             | from website    |
