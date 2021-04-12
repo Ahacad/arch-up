@@ -29,16 +29,12 @@
 | translate-shell     | awesome terminal baesd translator and dictionary built with awk   |                 |
 | z                   | z jump around                                                     |                 |
 | powerlevel10k       | a powerful zsh theme                                              |                 |
-| fd                  | modern find                                                       |                 |
-| ripgrep             | modern grep                                                       |                 |
 | asciinema           | awesome commandline recording tool                                |                 |
-| bat                 | modern cat                                                        |                 |
 | tldr                | example-based man                                                 |                 |
-| httpie              | modern culr                                                       |                 |
 | pgcli               | awesome cli in substitution for pgcl                              | pip             |
 | newsboat            | commandline rss                                                   | pacman          |
 | shellcheck          | awesome shell styling program written in haskell                  | pacman          |
-| delta               | great diff tool written in rust                                   | pacman          |
+| delta               | great diff tool written in rust                                   | yay             |
 | yay                 | pacman + AUR                                                      |                 |
 | wireshark           | see what's exactly inside http packages                           | pacman          |
 | sherlock            | look up one's info on the Internet                                | git             |
@@ -51,7 +47,19 @@
 | neomutt             | mutt reborn                                                       | pacman          |
 | alsamixea           | sound configurations                                              | pacman          |
 | rofi                | nice application launcher                                         | pacman          |
-| gping               | ping with graph                                                   | cargo           |
+| obs-studio          | screen recording                                                  | pacman          |
+| zotero              | reference management tool                                         | yay             |
 |                     |                                                                   |                 |
-| cmake               | package builder                                                   | pacman          |
-| doxygen             | generate docs to html                                             | from website    |
+| alacritty           | awesome modern terminal emulator written in rust                  | pacman          |
+| bat                 | modern cat                                                        |                 |
+| fd                  | modern find                                                       |                 |
+| ripgrep             | modern grep, written in rust                                      |                 |
+| gping     | modern ping with graph, written in rust                         | cargo        |
+| httpie              | modern culr                                                       |                 |
+|           |                                                                 |              |
+| cmake     | package builder                                                 | pacman       |
+| doxygen   | generate docs to html                                           | from website |
+| peek      | quickly record gif                                              | pacman       |
+| screenkey | display your key presses on screen, great for teaching purposes | pacman       |
+| gifsicle  | create, manipulate, optimize gifs                               | pacman       |
+|           |                                                                 |              |
