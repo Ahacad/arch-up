@@ -37,15 +37,16 @@ pacman -S compton redshift sxhkd xwallpaper bspwm dunst
 
 This 2 lines setup GUI for you, I use **bspwm**.
 
-| software name | explanation                                          |
-| --------      | -------                                              |
-| xorg          | the X server                                         |
-| bspwm         | bspwm windows manager                                |
-| xwallpaper    | for wallpaper                                        |
-| compton       | for transparent windows                              |
-| redshift      | warmer screen to protect your eyes                   |
-| sxhkd         | the universal shortcut manager that bspwm replies on |
-| dunst         | GUI notification service                             |
+| software name                                             | explanation                                          |
+| --------                                                  | -------                                              |
+| xorg                                                      | the X server                                         |
+| bspwm                                                     | bspwm windows manager                                |
+| xwallpaper                                                | for wallpaper                                        |
+| compton                                                   | for transparent windows                              |
+| redshift                                                  | warmer screen to protect your eyes                   |
+| sxhkd                                                     | the universal shortcut manager that bspwm replies on |
+| dunst                                                     | GUI notification service                             |
+| [xdotool](https://www.semicomplete.com/projects/xdotool/) | X11 automation tools                                 |
 
 ### Developement essentials
 
@@ -62,6 +63,7 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | gparted            | GUI disc manager                        |
 | networkmanager     | network management                      |
 | bluez, bluez-utils | bluetooth management                    |
+| xsel               | for paste to system to work in neovim   |
 
 ### Programming languages
 
