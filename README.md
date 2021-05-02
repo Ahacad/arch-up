@@ -91,6 +91,7 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | newsboat                                    | terminal rss                              |
 | light                                       | control brightness                        |
 | rofi                                        | open programs easily                      |
+| tokei                                       | code line count                           |
 
 ### CJK related 
 
