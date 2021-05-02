@@ -49,18 +49,19 @@ This 2 lines setup GUI for you, I use **bspwm**.
 
 ### Developement essentials
 
-| software name     | explanation                             |
-| --------          | -------                                 |
-| neovim            | the new-vim                             |
-| git               | version control                         |
-| tmux              | terminal multiplexer (multiple windows) |
-| zsh               | the zsh shell                           |
-| openssh           | ssh                                     |
-| zip, unzip, unrar | compress tool                           |
-| mlocate           | for `locate`                            |
-| cronie            | crontab service                         |
-| gparted           | GUI disc manager                        |
-| networkmanager    | network management                      |
+| software name      | explanation                             |
+| --------           | -------                                 |
+| neovim             | the new-vim                             |
+| git                | version control                         |
+| tmux               | terminal multiplexer (multiple windows) |
+| zsh                | the zsh shell                           |
+| openssh            | ssh                                     |
+| zip, unzip, unrar  | compress tool                           |
+| mlocate            | for `locate`                            |
+| cronie             | crontab service                         |
+| gparted            | GUI disc manager                        |
+| networkmanager     | network management                      |
+| bluez, bluez-utils | bluetooth management                    |
 
 ### Programming languages
 
@@ -83,6 +84,8 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | lazygit                                     | git TUI                                   |
 | alacritty                                   | alacritty the terminal emulator           |
 | zathura-pdf-mupdf, zathura-djvu, zathura-ps | the zathura file viewer                   |
+| newsboat                                    | terminal rss                              |
+| light                                       | control brightness                        |
 
 ### CJK related 
 

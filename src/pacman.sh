@@ -8,12 +8,14 @@ pacman -S xorg xorg-xinit
 pacman -S compton redshift sxhkd xwallpaper bspwm dunst
 
 # developer essentials 
-pacman -S neovim git tmux zsh openssh zip unrar unzip mlocate cronie gparted networkmanager
+pacman -S neovim git tmux zsh openssh zip unrar unzip mlocate cronie gparted networkmanager bluez bluez-utils
 
 # programming languages
 
+pacman -S python python-pip nodejs
+
 # handy tools
-pacman -S fzf mpv sxiv pandoc pdftk alsa-utils zathura-pdf-mupdf zathura-djvu zathura-ps lazygit alacritty
+pacman -S fzf mpv sxiv pandoc pdftk alsa-utils zathura-pdf-mupdf zathura-djvu zathura-ps lazygit alacritty newsboat light
 
 # for CJK
 pacman -S ibus-rime polipo
