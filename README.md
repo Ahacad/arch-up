@@ -86,6 +86,7 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | zathura-pdf-mupdf, zathura-djvu, zathura-ps | the zathura file viewer                   |
 | newsboat                                    | terminal rss                              |
 | light                                       | control brightness                        |
+| rofi                                        | open programs easily                      |
 
 ### CJK related 
 

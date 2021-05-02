@@ -6,6 +6,8 @@ yay -S lf lazydocker typora delta
 
 yay -S nerd-fonts-complete
 
+yay -S telegram-desktop slack-desktop
+
 # ====================================
 
 pip install neovim
