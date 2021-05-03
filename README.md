@@ -92,6 +92,7 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | light                                       | control brightness                        |
 | rofi                                        | open programs easily                      |
 | tokei                                       | code line count                           |
+| khal, vdirsyncer                            | terminal calendar and syncer              |
 
 ### CJK related 
 
