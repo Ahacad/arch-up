@@ -52,20 +52,20 @@ This 2 lines setup GUI for you, I use **bspwm**.
 
 ### Developement essentials
 
-| software name      | explanation                             |
-| --------           | -------                                 |
-| neovim             | the new-vim                             |
-| git                | version control                         |
-| tmux               | terminal multiplexer (multiple windows) |
-| zsh                | the zsh shell                           |
-| openssh            | ssh                                     |
-| zip, unzip, unrar  | compress tool                           |
-| mlocate            | for `locate`                            |
-| cronie             | crontab service                         |
-| gparted            | GUI disc manager                        |
-| networkmanager     | network management                      |
-| bluez, bluez-utils | bluetooth management                    |
-| xsel               | for paste to system to work in neovim   |
+| software name                 | explanation                             |
+| --------                      | -------                                 |
+| neovim                        | the new-vim                             |
+| git                           | version control                         |
+| tmux                          | terminal multiplexer (multiple windows) |
+| zsh                           | the zsh shell                           |
+| openssh                       | ssh                                     |
+| zip, unzip, unrar             | compress tool                           |
+| mlocate                       | for `locate`                            |
+| cronie                        | crontab service                         |
+| gparted                       | GUI disc manager                        |
+| networkmanager                | network management                      |
+| bluez, bluez-utils, blueberry | bluetooth management                    |
+| xsel                          | for paste to system to work in neovim   |
 
 ### Programming languages
 
