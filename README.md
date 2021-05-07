@@ -93,6 +93,7 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | rofi                                        | open programs easily                      |
 | tokei                                       | code line count                           |
 | khal, vdirsyncer                            | terminal calendar and syncer              |
+| cgdb                                        | gdb with TUI                              |
 
 ### CJK related 
 
@@ -175,3 +176,6 @@ Any suggestion or question is welcomed, start a [issue now](https://github.com/A
 
 You can also contact me through [email ahacad AT 126 DOT com](mailto:ahacad@126.com).
 
+# Similar projects
+
+- [Luke Smith LARBS](https://github.com/LukeSmithxyz/LARBS): auto-rice bootstrapping scripts, Luke is a famous youtuber
