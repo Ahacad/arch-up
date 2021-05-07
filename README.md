@@ -94,6 +94,7 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | tokei                                       | code line count                           |
 | khal, vdirsyncer                            | terminal calendar and syncer              |
 | cgdb                                        | gdb with TUI                              |
+| xxd                                         | for hex editor                            |
 
 ### CJK related 
 
@@ -139,6 +140,10 @@ makepkg -si
 Now go back to `src/yay.sh` and install more tools.
 
 ## More configurations
+
+[TeX Live](https://wiki.archlinux.org/title/TeX_Live): I use LaTeX a lot and
+would typicall install it upon booting, but TeX is too big, and you might not
+need it, so I put it here only for your reference
 
 [oh-my-zsh](https://ohmyz.sh/)
 
