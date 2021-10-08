@@ -95,6 +95,7 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | khal, vdirsyncer                            | terminal calendar and syncer              |
 | cgdb                                        | gdb with TUI                              |
 | xxd                                         | for hex editor                            |
+| bat                                         | rust cat clone                            |
 
 ### CJK related 
 
