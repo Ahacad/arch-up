@@ -78,14 +78,9 @@ pacman -S cowsay                # cow will say something impressive!
 # pip
 pip3 install ueberzug
 
-
-
-
-
 # AUR
 # lazygit
 # 
-
 
 # Remindings:
 # Some of the packages installed above require dependencies like programming languages (go, perl, etc.) and pacman automatically installed them. You might need to install the dependencies yourself if you want those and didn't install all the above tools
