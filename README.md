@@ -3,21 +3,21 @@
 
 ## Introduction
 
+<p align="center">
+
 ![repo size](https://img.shields.io/github/repo-size/ahacad/using-arch)
+![status: refactoring](https://img.shields.io/badge/status-%E2%9A%99%EF%B8%8Frefactoring-red)
 
-Using Arch Linux is an enjoyable experience, you can customize it to your needs; *installing Arch is not*.
+</p>
 
-This repo is an opinioned repo for installing basic and advanced tools **after you successfully install Arch and boot into it**.
 
-This repo containes a `setup.sh` shell script to set up arch configurations after installing, this will contain lots of common tools that will give you a better *development experince*. Due to the nature of all the open-sourced tools, their way of configurations **may vary from time to time**, and some of them will have to be set up manually for this very moment, I will explain them one by one below.
+Setup Arch Linux quickly after installing, with a bunch of useful daily programs.
 
-This repo is related to my [Configurations](https://github.com/ahacad/Configurations) and [wallpapers](https://github.com/Ahacad/wallpaper).
+<!--## Install the programs-->
 
-## Install the programs
+<!--`src/pacman.sh` -> install `yay` -> `src/yay.sh` -> look at the `More configurations` part and do some extra manual setups -> `$HOME/Configurations` -> use `install.sh` in Configurations-->
 
-`src/pacman.sh` -> install `yay` -> `src/yay.sh` -> look at the `More configurations` part and do some extra manual setups -> `$HOME/Configurations` -> use `install.sh` in Configurations
-
-Firstly you setup Arch Linux programs, and then insall personal configurations.
+<!--Firstly you setup Arch Linux programs, and then insall personal configurations.-->
 
 ## Explanation of `setup.sh`
 
@@ -176,6 +176,16 @@ EndSection
 ```
 
 Now head to [Configurations](https://github.com/ahacad/Configurations) and install personal configs.
+
+# Motivation
+
+Using Arch Linux is an enjoyable experience, you can customize it to your needs; *installing Arch is not*.
+
+This repo is an opinioned repo for installing basic and advanced tools **after you successfully install Arch and boot into it**.
+
+This repo containes a `setup.sh` shell script to set up arch configurations after installing, this will contain lots of common tools that will give you a better *development experince*. Due to the nature of all the open-sourced tools, their way of configurations **may vary from time to time**, and some of them will have to be set up manually for this very moment, I will explain them one by one below.
+
+This repo is related to my [Configurations](https://github.com/ahacad/Configurations) and [wallpapers](https://github.com/Ahacad/wallpaper).
 
 # Contribute
 
