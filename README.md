@@ -191,7 +191,7 @@ This repo is related to my [Configurations](https://github.com/ahacad/Configurat
 
 Any suggestion or question is welcomed, start a [issue now](https://github.com/Ahacad/using-arch/issues/new), or make a [PR](https://github.com/Ahacad/using-arch/pulls).
 
-You can also contact me through [email ahacad AT 126 DOT com](mailto:ahacad@126.com).
+You can also contact me through email [ahacad AT 126 DOT com](mailto:ahacad@126.com).
 
 # Similar projects
 
