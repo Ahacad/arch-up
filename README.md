@@ -31,6 +31,7 @@ Setup Arch Linux quickly after installing, with a bunch of useful daily programs
 * [Motivation](#motivation)
 * [Contribute](#contribute)
 * [Similar projects](#similar-projects)
+* [Projects that might be useful](#projects-that-might-be-useful)
 
 <!-- vim-markdown-toc -->
 
@@ -220,3 +221,7 @@ You can also contact me through email [ahacad AT 126 DOT com](mailto:ahacad@126.
 ## Similar projects
 
 - [Luke Smith LARBS](https://github.com/LukeSmithxyz/LARBS): auto-rice bootstrapping scripts, Luke is a famous youtuber
+
+## Projects that might be useful
+
+- [awesome readme](https://github.com/matiassingers/awesome-readme): repos with a good README
