@@ -74,7 +74,7 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | --------                                    | -------                                   |
 | python                                      |                                           |
 | python-pip                                  | pip python package manager                |
-| nodejs                                      |                                           |
+| nodejs                                      | JavaScript Runtime                        |
 
 ### Handy tools
 
@@ -104,7 +104,7 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | --------                                    | -------                                   |
 | ibus-rime                                   | the rime input method editor              |
 | polipo                                      | you'll need proxy to work in China        |
-|                                             |                                           |
+
 
 ### Fonts
 
@@ -129,15 +129,18 @@ cd yay
 makepkg -si
 ```
 
-| software name       | explanation            |
-| ---                 | ---                    |
-| google-chrome       | the Chrome browser     |
-| polybar             | the bar for bspwm      |
-| lf                  | terminal file browser  |
-| typora              | typora markdown editor |
-| delta               | terminal code diff     |
-| nerd-fonts-complete | nerd fonts             |
-|                     |                        |
+| software name        | brif intro             | explanations                                                                                                                             |
+| ---                  | ---                    | ---                                                                                                                                      |
+| google-chrome-stable | the Chrome browser     | opnions vary when it comes to choosing a browser, though google is not fully open sourced it is still arguablely one of the best browers |
+| polybar              | the bar for bspwm      | typically you need extra stuffs for a window manager, to get something similar to MacOS, polybar is a good option for the top bar        |
+| lf                   | terminal file browser  | a terminal file explorer written in golang, it is fast                                                                                   |
+| typora-free          | typora markdown editor | typora starts charging from December 2021, if you want to use free typora try this which is a beta version                               |
+| delta                | terminal code diff     | a diff tool better than the plain, there are a bunch more tools like this and you might find your own favourite                          |
+| nerd-fonts-complete  | nerd fonts             | arstoar                                                                                                                                  |
+|                      |                        |                                                                                                                                          |
+
+
+
 
 Now go back to `src/yay.sh` and install more tools.
 
