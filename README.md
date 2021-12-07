@@ -136,7 +136,7 @@ makepkg -si
 | lf                   | terminal file browser  | a terminal file explorer written in golang, it is fast                                                                                   |
 | typora-free          | typora markdown editor | typora starts charging from December 2021, if you want to use free typora try this which is a beta version                               |
 | delta                | terminal code diff     | a diff tool better than the plain, there are a bunch more tools like this and you might find your own favourite                          |
-| nerd-fonts-complete  | nerd fonts             | arstoar                                                                                                                                  |
+| nerd-fonts-complete  | nerd fonts             |                                                                                                                                          |
 |                      |                        |                                                                                                                                          |
 
 
