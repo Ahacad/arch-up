@@ -1,7 +1,6 @@
 
 
-
-## Introduction
+# Arch Up
 
 <p align="center">
 
@@ -10,8 +9,30 @@
 
 </p>
 
-
 Setup Arch Linux quickly after installing, with a bunch of useful daily programs.
+
+
+## TOC
+
+<!-- vim-markdown-toc GFM -->
+
+* [Explanation of `setup.sh`](#explanation-of-setupsh)
+    * [System tools](#system-tools)
+    * [GUI setup](#gui-setup)
+    * [Developement essentials](#developement-essentials)
+    * [Programming languages](#programming-languages)
+    * [Handy tools](#handy-tools)
+    * [CJK related](#cjk-related)
+    * [Fonts](#fonts)
+    * [For fun](#for-fun)
+* [Set up things manually](#set-up-things-manually)
+    * [YAY](#yay)
+* [More configurations](#more-configurations)
+* [Motivation](#motivation)
+* [Contribute](#contribute)
+* [Similar projects](#similar-projects)
+
+<!-- vim-markdown-toc -->
 
 <!--## Install the programs-->
 
@@ -180,7 +201,7 @@ EndSection
 
 Now head to [Configurations](https://github.com/ahacad/Configurations) and install personal configs.
 
-# Motivation
+## Motivation
 
 Using Arch Linux is an enjoyable experience, you can customize it to your needs; *installing Arch is not*.
 
@@ -190,12 +211,12 @@ This repo containes a `setup.sh` shell script to set up arch configurations afte
 
 This repo is related to my [Configurations](https://github.com/ahacad/Configurations) and [wallpapers](https://github.com/Ahacad/wallpaper).
 
-# Contribute
+## Contribute
 
 Any suggestion or question is welcomed, start a [issue now](https://github.com/Ahacad/using-arch/issues/new), or make a [PR](https://github.com/Ahacad/using-arch/pulls).
 
 You can also contact me through email [ahacad AT 126 DOT com](mailto:ahacad@126.com).
 
-# Similar projects
+## Similar projects
 
 - [Luke Smith LARBS](https://github.com/LukeSmithxyz/LARBS): auto-rice bootstrapping scripts, Luke is a famous youtuber
