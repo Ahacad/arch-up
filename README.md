@@ -9,7 +9,7 @@
 
 </p>
 
-Setup Arch Linux quickly after installing, with a bunch of useful daily programs.
+Setup Arch Linux quickly after installing, with a bunch of useful daily programs. On how to install Arch Linux, please see [install.md](./install.md).
 
 
 ## TOC

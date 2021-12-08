@@ -3,7 +3,7 @@
 # grub
 pacman -S grub
 pacman -S efibootmgr
-pacman -S intel-ucode
+placman -S intel-ucode # warning: change to amd-ucode for AMD procesors
 pacman -S os-prober
 
 # X11
