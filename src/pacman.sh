@@ -1,11 +1,11 @@
 #! /usr/bin/sh
 
 # system setup
-pacman -S wpasupplicant dhcpcd visudo
+pacman -S network-manager-applet base-devel visudo
 
 # for GUI, wm (windows managers) also needs this
-pacman -S xorg xorg-xinit xdotool
-pacman -S compton redshift sxhkd xwallpaper bspwm dunst
+pacman -S xorg xorg-xinit
+pacman -S bspwm compton redshift sxhkd xwallpaper dunst xdotool
 
 # developer essentials 
 pacman -S neovim git tmux zsh openssh zip unrar unzip mlocate cronie gparted networkmanager bluez bluez-utils blueberry xsel

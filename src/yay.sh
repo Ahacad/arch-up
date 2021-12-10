@@ -2,7 +2,7 @@
 
 yay -S google-chrome polybar
 
-yay -S lf lazydocker typora delta
+yay -S lf typora-free delta
 
 yay -S nerd-fonts-complete
 
