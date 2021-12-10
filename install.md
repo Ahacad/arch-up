@@ -51,7 +51,7 @@ Use `wpa_passphrase` to generate password file and `wpa_supplicant` to connect t
 
 ```
 wpa_passphrase <wifi_name> <password> > internet.conf # internet.conf is only a text file, you may use any name
-wpa_supplicant -c internet.conf -i wlan0 
+wpa_supplicant -c internet.conf -i wlan0 &
 ```
 
 Get a dynamic ip address with `dhcpcd`.
