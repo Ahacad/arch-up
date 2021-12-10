@@ -141,6 +141,7 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | python                                      |                                           |
 | python-pip                                  | pip python package manager                |
 | nodejs                                      | JavaScript Runtime                        |
+| yarn                                      | JavaScript package manager                        |
 
 ### Handy tools
 
