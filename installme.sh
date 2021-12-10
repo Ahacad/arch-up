@@ -1,20 +1,25 @@
 #! /bin/bash
 
 # grub
-pacman -S grub
-pacman -S efibootmgr
-placman -S intel-ucode # warning: change to amd-ucode for AMD procesors
-pacman -S os-prober
+# pacman -S grub
+# pacman -S efibootmgr
+# placman -S intel-ucode # warning: change to amd-ucode for AMD procesors
+# pacman -S os-prober
 
 # X11
+pacman -S xorg
 pacman -S xorg-server
 pacman -S xorg-xinit
 pacman -S xorg-fonts  
 pacman -S xorg-xwininfo
 
+pacman -S man
+pacman -S network-manager-applet
+pacman -S base-devel
+
 # utilities
-pacman -S wpa_supplicant        # for network
-pacman -S dhcpcd                # for network
+# pacman -S wpa_supplicant        # for network
+# pacman -S dhcpcd                # for network
 pacman -S ntfs-3g               # for mounting usb nfts disk
 pacman -S alsa-utils            # for sound adjustments
 pacman -S python-pip            # for python pip

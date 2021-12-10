@@ -60,7 +60,9 @@ git clone https://github.com/ahacad/arch-up
 cd arch-up/src && bash pacman.sh
 ```
 
-## Explanation of `setup.sh`
+The above command will install all the programs in `pacman.sh` (see the explanatinos in the next section). After that you may jump to `yay.sh` and install programs inside it.
+
+## Explanation of `pacman.sh`
 
 ### System tools
 
