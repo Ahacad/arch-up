@@ -195,8 +195,6 @@ mkdir /boot/grub
 grub-mkconfig > /boot/grub/grub.cfg
 ```
 
-``````
-
 Install more utilities.
 
 ```
@@ -206,5 +204,3 @@ pacman -S neovim vi zsh wpa_supplicant dhcpcd
 ## References
 
 - [TheCW: 【残酷难度】最全Arch Linux安装教程——打造真正属于你的操作系统](https://www.bilibili.com/video/BV11J411a7Tp?spm_id_from=333.999.0.0)
-
-
