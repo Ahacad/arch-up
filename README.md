@@ -41,15 +41,33 @@ Setup Arch Linux quickly after installing, with a bunch of useful daily programs
 
 <!--Firstly you setup Arch Linux programs, and then insall personal configurations.-->
 
+## Getting started
+
+After installing Arch Linux (often I do this by a USB boot), you'll be able to log in a terminal to install more programs. Typically you'll login in first as root, but it's recommended to create a new user and use that account to do more things.
+
+```
+useradd -m -G wheel <yourname>
+passwd <yourname>
+visudo
+# find wheel group and allow it to execute any command
+```
+
+Exit and re-login use this new acconut, and continue to install more programs.
+
+```
+sudo pacman -S git
+git clone https://github.com/ahacad/arch-up
+cd arch-up/src && bash pacman.sh
+```
+
 ## Explanation of `setup.sh`
 
 ### System tools
 
 | software name                                                 | explanation                              |
 | ---                                                           | ---                                      |
-| wpasupplicant                                                 | for network                              |
-| dhcpcd                                                        | for ip address                           |
 | network-manager-applet                                        | gui for networks, this is handy at times |
+| man                                        | gui for networks, this is handy at times |
 | [base-devel](https://archlinux.org/groups/x86_64/base-devel/) | development essentials                   |
 
 
@@ -130,6 +148,14 @@ This 2 lines setup GUI for you, I use **bspwm**.
 
 ### Fonts
 
+| software name               | explanation |
+| ---                         | ---         |
+| adobe-source-code-pro-fonts |             |
+| rxvt-unicode                |             |
+| noto-fonts                  |             |
+| noto-fonts-emoji            |             |
+| ttf-font-awesome            |             |
+
 ### For fun
 
 | software name | explanation                                |
@@ -160,9 +186,6 @@ makepkg -si
 | delta                | terminal code diff     | a diff tool better than the plain, there are a bunch more tools like this and you might find your own favourite                          |
 | nerd-fonts-complete  | nerd fonts             |                                                                                                                                          |
 |                      |                        |                                                                                                                                          |
-
-
-
 
 Now go back to `src/yay.sh` and install more tools.
 
