@@ -107,6 +107,7 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | software name                                             | explanation                                          |
 | --------                                                  | -------                                              |
 | xorg                                                      | the X server                                         |
+| xorg-setxkbmap                                            | the setxkbmap utility                                |
 | bspwm                                                     | bspwm windows manager                                |
 | xwallpaper                                                | for wallpaper                                        |
 | compton                                                   | for transparent windows                              |

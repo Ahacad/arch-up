@@ -4,7 +4,7 @@
 pacman -S network-manager-applet base-devel visudo
 
 # for GUI, wm (windows managers) also needs this
-pacman -S xorg xorg-xinit
+pacman -S xorg xorg-xinit xorg-setxkbmap
 pacman -S bspwm compton redshift sxhkd xwallpaper dunst xdotool
 
 # developer essentials 
