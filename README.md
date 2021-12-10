@@ -164,6 +164,8 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | cgdb                                        | gdb with TUI                              |
 | xxd                                         | for hex editor                            |
 | bat                                         | rust cat clone                            |
+| htop                                         | system monitoring                            |
+| powertop                                         | battery monitoring                            |
 
 ### CJK related 
 
