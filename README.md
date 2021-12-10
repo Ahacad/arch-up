@@ -227,6 +227,13 @@ need it, so I put it here only for your reference
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
 
+[powerlevel10k](https://github.com/romkatv/powerlevel10k)
+
+```bash
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+```
+
 [ohmytmux](https://github.com/gpakosz/.tmux)
 
 ```bash
