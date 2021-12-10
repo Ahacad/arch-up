@@ -103,8 +103,107 @@ swapon /dev/mmcblk1p3        # start swap
 
 ### Setup pacman
 
+Open color in `pacman.conf`.
+
+```
+vim /etc/pacman.conf # and uncomment color
+```
+
+Change mirror sites as you need by editing `mirrorlist` file.
+
+```
+vim /etc/pacman.d/mirrorlist
+```
+
 ## 3. Install Linux to `/root`
 
+Let's say your `/root` partition is `dev/mmcblk1p2` and UEFI partition is `/dev/mmcblk1p1`, mount root to `/mnt` by `mount /dev/mmcblk1p2 /mnt` and UEFI partition to `/boot` folder under root.
+
+```
+mount /dev/mmcblk1p2 /mnt
+mkdir /mnt/boot
+mount /dev/mmcblk1p1 /mnt/boot
+```
+
+Let's get installing linux with `pacstrap`!
+
+```
+pacstrap /mnt base linux linux-firmware
+```
+
+Generate file system tabs to `/etc/fstab`.
+
+```
+genfstab -U /mnt >> /mnt/etc/fstab
+```
+
+Now we get into the installed system by `arch-chroot` and sync time.
+
+```
+arch-chroot /mnt
+ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime # change as you need
+hwclock --systohc
+```
+
+Change locale in the new system by editing `/etc/locale.gen`
+
+```
+vim /mnt/etc/locale.gen
+# set en_US.UTF-8 UTF-8
+```
+
+Generate locale by `locale-gen`.
+
+```
+# inside the new system
+locale-gen
+```
+
+Set `locale.conf`.
+
+```
+vim /mnt/etc/locale.conf
+# LANG=en_US.UTF-8
+```
+
+Set hostname config.
+
+```
+vim /mnt/etc/hostname
+# 127.0.0.1 localhost
+# ::1   localhsot
+```
+
+Set password.
+
+```
+# inside the new system
+passwd
+```
+
+Install grub and more utilities.
+
+```
+# inside the new system
+pacman -S grub efibootmgr amd-ucode os-prober
+```
+
+Generate grub config file.
+
+```
+mkdir /boot/grub
+grub-mkconfig > /boot/grub/grub.cfg
+```
+
+```
+grub-install --target=x86_64-efi --efi-directory=/boot
+```
+
+Install more utilities.
+
+```
+pacman -S neovim vi zsh wpa_supplicant dhcpcd
+```
 
 ## References
 
