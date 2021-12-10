@@ -8,7 +8,7 @@ pacman -S xorg xorg-xinit
 pacman -S bspwm compton redshift sxhkd xwallpaper dunst xdotool
 
 # developer essentials 
-pacman -S neovim git tmux zsh openssh zip unrar unzip mlocate cronie gparted networkmanager bluez bluez-utils blueberry xsel
+pacman -S neovim git tmux zsh openssh zip unrar unzip mlocate cronie gparted networkmanager bluez bluez-utils blueberry xsel wget
 
 # programming languages
 

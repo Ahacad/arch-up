@@ -14,6 +14,6 @@ pip install neovim
 
 # ====================================
 
-git clone https://github.com/ahacad/Configurations $HOME
+git clone https://github.com/ahacad/Configurations $HOME/Configurations
 
 echo "Now go to $HOME/Configurations and setup more personal configurations"

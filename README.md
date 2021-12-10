@@ -131,6 +131,7 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | networkmanager                | network management                      |
 | bluez, bluez-utils, blueberry | bluetooth management                    |
 | xsel                          | for paste to system to work in neovim   |
+| wget                          |                                         |
 
 ### Programming languages
 
