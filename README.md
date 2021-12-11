@@ -190,9 +190,12 @@ This 2 lines setup GUI for you, I use **bspwm**.
 
 ### For fun
 
-| software name | explanation                                |
-| --------      | -------                                    |
-| cowsay        |                                            |
+| software name | explanation      |
+| --------      | -------          |
+| cowsay        |                  |
+| krita         | for drawing      |
+| inkscape      | for drawing      |
+| digikam       | photo management |
 
 ## Set up things manually
 
