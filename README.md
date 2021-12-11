@@ -170,6 +170,8 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | rsync                                       |                                           |
 | pulseaudio                                  | audio control                             |
 | pueue                                       | run process in parallel easily            |
+| flameshot                                   | screen shot with ease                     |
+| ripgrep                                     | code search with ease                     |
 
 ### CJK related 
 
