@@ -247,6 +247,18 @@ Section "InputClass"
 EndSection
 ```
 
+### Default applications
+
+We'll use `xdg-open` as the example, find applications in `/usr/share/applications` and you see things like `lf.desktop`.
+
+Edit the `~/.config/mimeapps.list` and write things like:
+
+```
+applications/pdf=org.pwmt.zathura.desktop
+```
+
+where the left side is the type for the files and the right side is the application's name. You can get types of files by `xdg-mime query filetype <file>`.
+
 ### ibus-rime
 
 
