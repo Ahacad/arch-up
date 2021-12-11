@@ -133,6 +133,7 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | bluez, bluez-utils, blueberry | bluetooth management                    |
 | xsel                          | for paste to system to work in neovim   |
 | wget                          |                                         |
+| ntfs-3g                       | for the ntfs filesystem                 | 
 
 ### Programming languages
 
@@ -167,6 +168,7 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | htop                                        | system monitoring                         |
 | powertop                                    | battery monitoring                        |
 | rsync                                       |                                           |
+| pulseaudio | audio control |
 
 ### CJK related 
 
