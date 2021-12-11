@@ -15,10 +15,10 @@ pacman -S neovim git tmux zsh openssh zip unrar unzip mlocate cronie gparted net
 pacman -S python python-pip nodejs yarn
 
 # handy tools
-pacman -S fzf mpv sxiv pandoc pdftk alsa-utils zathura-pdf-mupdf zathura-djvu zathura-ps lazygit alacritty newsboat light rofi tokei khal vdirsyncer cgdb xxd bat powertop htop
+pacman -S fzf mpv sxiv pandoc pdftk alsa-utils zathura-pdf-mupdf zathura-djvu zathura-ps lazygit alacritty newsboat light rofi tokei khal vdirsyncer cgdb xxd bat powertop htop rsync
 
 # for CJK
-pacman -S ibus-rime polipo
+pacman -S ibus ibus-rime
 
 # fonts
 pacman -S adobe-source-code-pro-fonts rxvt-unicode noto-fonts noto-fonts-emoji ttf-font-awesome

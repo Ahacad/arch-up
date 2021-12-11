@@ -164,8 +164,9 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | cgdb                                        | gdb with TUI                              |
 | xxd                                         | for hex editor                            |
 | bat                                         | rust cat clone                            |
-| htop                                         | system monitoring                            |
-| powertop                                         | battery monitoring                            |
+| htop                                        | system monitoring                         |
+| powertop                                    | battery monitoring                        |
+| rsync                                       |                                           |
 
 ### CJK related 
 
@@ -220,31 +221,13 @@ Now go back to `src/yay.sh` and install more tools.
 
 ## More configurations
 
+### LaTeX
+
 [TeX Live](https://wiki.archlinux.org/title/TeX_Live): I use LaTeX a lot and
 would typicall install it upon booting, but TeX is too big, and you might not
 need it, so I put it here only for your reference
 
-[oh-my-zsh](https://ohmyz.sh/)
-
-```bash
-sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
-```
-
-[powerlevel10k](https://github.com/romkatv/powerlevel10k)
-
-```bash
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
-```
-
-[ohmytmux](https://github.com/gpakosz/.tmux)
-
-```bash
-cd
-git clone https://github.com/gpakosz/.tmux.git
-ln -s -f .tmux/.tmux.conf
-cp .tmux/.tmux.conf.local .
-```
+### Natural Scrolling
 
 [natural scrolling for Linux](https://wiki.archlinux.org/title/Libinput#Via_Xorg_configuration_file), edit file `/etc/X11/xorg.conf.d/40-libinput.conf`
 
@@ -258,6 +241,10 @@ Section "InputClass"
   Option "ClickMethod" "clickfinger"
 EndSection
 ```
+
+### ibus-rime
+
+
 
 Now head to [Configurations](https://github.com/ahacad/Configurations) and install personal configs.
 
