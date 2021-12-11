@@ -200,6 +200,13 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | inkscape      | for drawing      |
 | digikam       | photo management |
 
+### The hacker toolkit
+
+| software name                                                               | explanation                                          |
+| ---                                                                         | ---                                                  |
+| iperf3                                                                      | network bandwidth measument                          |
+| [aircrack-ng](https://archlinux.org/packages/community/x86_64/aircrack-ng/) | Key cracker for the 802.11 WEP and WPA-PSK protocols |
+
 ## Set up things manually
 
 As said before, due to the nature of configurations you'll have to set up a few things manually

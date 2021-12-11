@@ -26,6 +26,9 @@ pacman -S adobe-source-code-pro-fonts rxvt-unicode noto-fonts noto-fonts-emoji t
 # for fun
 pacman -S cowsay krita inkscape digikam
 
+# hacker toolkit
+pacman -S iperf3 aircrack-ng
+
 # =====================================================
 
 echo "Install yay by instructions from README, and go to use yay.sh"
