@@ -168,7 +168,8 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | htop                                        | system monitoring                         |
 | powertop                                    | battery monitoring                        |
 | rsync                                       |                                           |
-| pulseaudio | audio control |
+| pulseaudio                                  | audio control                             |
+| pueue                                       | run process in parallel easily            |
 
 ### CJK related 
 

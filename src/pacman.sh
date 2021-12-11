@@ -15,7 +15,7 @@ pacman -S neovim git tmux zsh openssh zip unrar unzip mlocate cronie gparted net
 pacman -S python python-pip nodejs yarn
 
 # handy tools
-pacman -S fzf mpv sxiv pandoc pdftk alsa-utils zathura-pdf-mupdf zathura-djvu zathura-ps lazygit alacritty newsboat light rofi tokei khal vdirsyncer cgdb xxd bat powertop htop rsync pulseaudio
+pacman -S fzf mpv sxiv pandoc pdftk alsa-utils zathura-pdf-mupdf zathura-djvu zathura-ps lazygit alacritty newsboat light rofi tokei khal vdirsyncer cgdb xxd bat powertop htop rsync pulseaudio pueue
 
 # for CJK
 pacman -S ibus ibus-rime
