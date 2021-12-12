@@ -12,7 +12,7 @@ pacman -S neovim git tmux zsh openssh zip unrar unzip mlocate cronie gparted net
 
 # programming languages
 
-pacman -S python python-pip nodejs yarn
+pacman -S python python-pip nodejs yarn clang
 
 # handy tools
 pacman -S fzf mpv sxiv pandoc pdftk alsa-utils zathura-pdf-mupdf zathura-djvu zathura-ps lazygit alacritty newsboat light rofi tokei khal vdirsyncer cgdb xxd bat powertop htop rsync pulseaudio pueue flameshot ripgrep libreoffice

@@ -137,12 +137,13 @@ This 2 lines setup GUI for you, I use **bspwm**.
 
 ### Programming languages
 
-| software name                               | explanation                               |
-| --------                                    | -------                                   |
-| python                                      |                                           |
-| python-pip                                  | pip python package manager                |
-| nodejs                                      | JavaScript Runtime                        |
-| yarn                                      | JavaScript package manager                        |
+| software name | explanation                |
+| --------      | -------                    |
+| python        |                            |
+| python-pip    | pip python package manager |
+| nodejs        | JavaScript Runtime         |
+| clang         | a LLVM based compiler      |
+| yarn          | JavaScript package manager |
 
 ### Handy tools
 
