@@ -172,6 +172,7 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | pueue                                       | run process in parallel easily            |
 | flameshot                                   | screen shot with ease                     |
 | ripgrep                                     | code search with ease                     |
+| libreoffice                                 | substitution for microsoft office         |
 
 ### CJK related 
 
