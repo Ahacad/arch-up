@@ -271,11 +271,18 @@ applications/pdf=org.pwmt.zathura.desktop
 
 where the left side is the type for the files and the right side is the application's name. You can get types of files by `xdg-mime query filetype <file>`.
 
-### ibus-rime
+### Detect dual systems
 
+Sometimes the dual system (like Windows) will not be detected by grub when you are installing Arch Linux and forget to temporarily mount it, you can fix this latter. EDit `/etc/default/grub` and add/uncomment the line 
 
+```
+GRUB_DISABLE_OS_PROBER=false
+```
+
+Then run `grub-mkconfig -o /boot/grub/grub.cfg`, this problem should be fixed.
 
 Now head to [Configurations](https://github.com/ahacad/Configurations) and install personal configs.
+
 
 ## Motivation
 
