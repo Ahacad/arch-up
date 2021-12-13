@@ -125,7 +125,7 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | tmux                          | terminal multiplexer (multiple windows) |
 | zsh                           | the zsh shell                           |
 | openssh                       | ssh                                     |
-| zip, unzip, unrar             | compress tool                           |
+| zip, unzip, unrar, p7zip             | compress tool                           |
 | mlocate                       | for `locate`                            |
 | cronie                        | crontab service                         |
 | gparted                       | GUI disc manager                        |
@@ -144,6 +144,7 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | nodejs        | JavaScript Runtime         |
 | clang         | a LLVM based compiler      |
 | yarn          | JavaScript package manager |
+| cmake         | c package manager          |
 
 ### Handy tools
 
