@@ -141,6 +141,7 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | --------      | -------                    |
 | python        |                            |
 | python-pip    | pip python package manager |
+| gopls    | golang |
 | nodejs        | JavaScript Runtime         |
 | clang         | a LLVM based compiler      |
 | yarn          | JavaScript package manager |
@@ -175,6 +176,9 @@ This 2 lines setup GUI for you, I use **bspwm**.
 | flameshot                                   | screen shot with ease                     |
 | ripgrep                                     | code search with ease                     |
 | libreoffice                                 | substitution for microsoft office         |
+| tree                                 | show directory tree         |
+| ncdu                                 | disk management         |
+| github cli                                 | github in command line         |
 
 ### CJK related 
 
@@ -196,13 +200,15 @@ This 2 lines setup GUI for you, I use **bspwm**.
 
 ### For fun
 
-| software name    | explanation      |
-| --------         | -------          |
-| cowsay           |                  |
-| krita            | for drawing      |
-| inkscape         | for drawing      |
-| digikam          | photo management |
-| xf86-input-wacom | wacom utilities  |
+| software name    | explanation         |
+| --------         | -------             |
+| cowsay           |                     |
+| krita            | for drawing         |
+| inkscape         | for drawing         |
+| gimp         | for ps         |
+| digikam          | photo management    |
+| xf86-input-wacom | wacom utilities     |
+| mpd              | music player daemon |
 
 ### The hacker toolkit
 
