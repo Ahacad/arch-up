@@ -1,7 +1,7 @@
 #! /usr/bin/sh
 
 # system setup
-pacman -S --noconfirm network-manager-applet base-devel visudo
+pacman -S --noconfirm network-manager-applet base-devel sudo man
 
 # for GUI, wm (windows managers) also needs this
 pacman -S --noconfirm xorg xorg-xinit xorg-setxkbmap
