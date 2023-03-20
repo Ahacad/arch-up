@@ -24,7 +24,7 @@ pacman -S --noconfirm ibus ibus-rime
 pacman -S --noconfirm adobe-source-code-pro-fonts rxvt-unicode noto-fonts noto-fonts-emoji ttf-font-awesome
 
 # for fun
-pacman -S --noconfirm cowsay krita inkscape digikam gimp xf86-input-wacom mpd
+pacman -S --noconfirm cowsay krita inkscape blender digikam gimp xf86-input-wacom mpd
 
 # hacker toolkit
 pacman -S --noconfirm iperf3 aircrack-ng
