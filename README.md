@@ -65,6 +65,9 @@ Setup Arch Linux quickly after installing, with a bunch of useful daily programs
 
 ## Getting started
 
+
+### Install the programs
+
 After installing Arch Linux (often I do this by a USB boot), you'll be able to log in a terminal to install more programs. Typically you'll login in first as root, but it's recommended to create a new user and use that account to do more things.
 
 ```
@@ -82,7 +85,29 @@ git clone https://github.com/ahacad/arch-up
 cd arch-up/src && bash pacman.sh
 ```
 
+### Graphical interface
+
 The above command will install all the programs in `pacman.sh` (see the explanatinos in the next section). After that you may jump to `yay.sh` and install programs inside it.
+
+
+Write this in your `~/.xinitrc` which will let xorg start with bspwm, running in graphical interface will prevent the problem of wrongly displaying CJK characters. Afterwards, use `startx` to get into graphical interface.
+
+```
+exec bspwm
+```
+
+### Proxy
+
+I recommend use `Clash` for proxies (in case you are in an area where internet is confined). Refer to the [documents](https://github.com/juewuy/ShellClash/blob/master/README_CN.md), and use the command:
+
+
+```
+export url='https://fastly.jsdelivr.net/gh/juewuy/ShellClash@master' && wget -q --no-check-certificate -O /tmp/install.sh $url/install.sh  && bash /tmp/install.sh && source /etc/profile &> /dev/null
+```
+
+Follow the install scripts' directions and you should be able to fully install the clash proxy.
+
+
 
 ## Explanation of `pacman.sh`
 
