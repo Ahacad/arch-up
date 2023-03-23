@@ -8,10 +8,9 @@ pacman -S --noconfirm xorg xorg-xinit xorg-setxkbmap
 pacman -S --noconfirm bspwm compton redshift sxhkd xwallpaper dunst xdotool
 
 # developer essentials 
-pacman -S --noconfirm neovim git tmux zsh openssh zip unrar unzip p7zip mlocate cronie gparted networkmanager bluez bluez-utils blueberry xsel wget ntfs-3g 
+pacman -S --noconfirm neovim git tmux zsh openssh zip unrar unzip p7zip mlocate cronie gparted networkmanager bluez bluez-utils blueberry xsel wget ntfs-3g lf
 
 # programming languages
-
 pacman -S --noconfirm python python-pip nodejs yarn clang cmake gopls
 
 # handy tools
@@ -28,6 +27,9 @@ pacman -S --noconfirm cowsay krita inkscape blender digikam gimp xf86-input-waco
 
 # hacker toolkit
 pacman -S --noconfirm iperf3 aircrack-ng
+
+# CJK basic fonts
+pacman -S noto-fonts-cjk wqy-zenhei adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts fcitx5-im
 
 # =====================================================
 
