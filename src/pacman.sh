@@ -5,7 +5,7 @@ pacman -S --noconfirm network-manager-applet base-devel sudo man
 
 # for GUI, wm (windows managers) also needs this
 pacman -S --noconfirm xorg xorg-xinit xorg-setxkbmap
-pacman -S --noconfirm bspwm compton redshift sxhkd xwallpaper dunst xdotool
+pacman -S --noconfirm bspwm compton redshift sxhkd xwallpaper dunst xdotool picom
 
 # developer essentials 
 pacman -S --noconfirm neovim git tmux zsh openssh zip unrar unzip p7zip mlocate cronie gparted networkmanager bluez bluez-utils blueberry xsel wget ntfs-3g 
