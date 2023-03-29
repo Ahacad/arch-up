@@ -16,7 +16,7 @@ pacman -S --noconfirm python python-pip nodejs yarn clang cmake gopls
 # handy tools
 pacman -S --noconfirm fzf mpv sxiv pandoc pdftk alsa-utils zathura-pdf-mupdf zathura-djvu zathura-ps lazygit alacritty newsboat light rofi tokei khal vdirsyncer cgdb xxd bat powertop htop rsync pulseaudio pueue flameshot ripgrep libreoffice tree ncdu github-cli
 
-# for CJK
+# for CJK input
 pacman -S --noconfirm ibus ibus-rime
 
 # fonts
@@ -29,7 +29,10 @@ pacman -S --noconfirm cowsay krita inkscape blender digikam gimp xf86-input-waco
 pacman -S --noconfirm iperf3 aircrack-ng
 
 # CJK basic fonts
-pacman -S noto-fonts-cjk wqy-zenhei adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts fcitx5-im
+pacman -S --noconfirm noto-fonts-cjk wqy-zenhei adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts fcitx5-im
+
+# others
+pacman -S --noconfirm linux-headers
 
 # =====================================================
 
