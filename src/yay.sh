@@ -2,11 +2,11 @@
 
 yay -S google-chrome polybar
 
-yay -S lf typora-free delta
-
-yay -S nerd-fonts-complete
+yay -S lf typora-free
 
 yay -S telegram-desktop
+
+pacman -Ssq nerd-fonts | sudo pacman -S -
 
 # ====================================
 
