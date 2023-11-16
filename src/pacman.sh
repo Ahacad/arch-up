@@ -14,7 +14,7 @@ pacman -S --noconfirm neovim git tmux zsh openssh zip unrar unzip p7zip mlocate 
 pacman -S --noconfirm python python-pip nodejs yarn clang cmake gopls
 
 # handy tools
-pacman -S --noconfirm fzf mpv sxiv pandoc pdftk alsa-utils zathura-pdf-mupdf zathura-djvu zathura-ps lazygit alacritty newsboat light rofi tokei khal vdirsyncer cgdb xxd bat powertop htop rsync pulseaudio pueue flameshot ripgrep libreoffice tree ncdu github-cli
+pacman -S --noconfirm fzf mpv sxiv pandoc pdftk alsa-utils zathura-pdf-mupdf zathura-djvu zathura-ps lazygit alacritty newsboat light rofi tokei khal vdirsyncer cgdb xxd bat powertop htop rsync pulseaudio pueue flameshot ripgrep libreoffice tree ncdu github-cli pavucontrol
 
 # for CJK input
 pacman -S --noconfirm ibus ibus-rime
@@ -28,8 +28,9 @@ pacman -S --noconfirm cowsay krita inkscape blender digikam gimp xf86-input-waco
 # hacker toolkit
 pacman -S --noconfirm iperf3 aircrack-ng
 
-# CJK basic fonts
+# CJK basic fonts and nerd-patched fonts
 pacman -S --noconfirm noto-fonts-cjk wqy-zenhei adobe-source-han-sans-cn-fonts adobe-source-han-serif-cn-fonts fcitx5-im
+pacman -S --noconfirm otf-cascadia-code-nerd
 
 # others
 pacman -S --noconfirm linux-headers

@@ -1,12 +1,14 @@
 #! /usr/bin/sh
 
-yay -S google-chrome polybar
+yay -S google-chrome polybar pulseaudio-control
 
 yay -S lf typora-free delta
 
 yay -S nerd-fonts-complete
 
 yay -S telegram-desktop
+
+yay -S pulseaudio-control
 
 # ====================================
 
