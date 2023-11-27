@@ -35,6 +35,9 @@ pacman -S --noconfirm otf-cascadia-code-nerd
 # others
 pacman -S --noconfirm linux-headers
 
+# gpu-related
+pacman -S nvidia
+
 # =====================================================
 
 echo "Install yay by instructions from README, and go to use yay.sh"
