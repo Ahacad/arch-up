@@ -38,6 +38,9 @@ pacman -S --noconfirm linux-headers
 # gpu-related
 pacman -S nvidia
 
+# tex
+pacman -S texlive texlive-lang biber
+
 # =====================================================
 
 echo "Install yay by instructions from README, and go to use yay.sh"
